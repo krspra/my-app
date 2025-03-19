@@ -26,7 +26,7 @@ export default function Home() {
         <button className="cursor-pointer bg-green-500 p-2 rounded-2xl w-[80px] text-white">Date</button>
         <button className="cursor-pointer bg-red-500 p-2 rounded-2xl w-[90px] text-white">Checkbox</button>
       </div>
-      <form className="w-fit mt-4">
+      <form className="h-fit w-full mt-9 flex flex-col items-center">
         {formData.map((val, index) => (
           <input key={index} type={val} className="block mb-2 border p-2" />
         ))}
