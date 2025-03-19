@@ -13,7 +13,7 @@ export default function Home() {
     else if (choice === "Checkbox") newValue = "checkbox";
 
     if (newValue) {
-      setFormData((prev) => [...prev, newValue]); // Use setState to update state
+      setFormData((prev) => [...prev, newValue]);
     }
   };
 
